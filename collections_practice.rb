@@ -21,7 +21,7 @@ array = ["jhon","eli", "wakat"]
 	def first_wa(array)
 	 # spl = array.split(' ')
 	  was_ar = []
-	  array.each do |el| was_ar << el if el.start_with?('wa')
+	  array.each do |el| was_ar << el if el.first.start_with?('wa')
 	  
 	  end
 	  was_ar
