@@ -9,18 +9,22 @@ def begins_with_r(array)
 	end
 
 def contain_a(array)
-| #nu_ar dot push 'unless' it does-not contain 'a' or push 'if' it contains 'a'
+ #nu_ar dot push 'unless' it does-not contain 'a' or push 'if' it contains 'a'
 	  nu_ar= []
-	  array.each do |el
+	  array.each do |el|
 	  nu_ar << el unless !el.include?("a")
 	  end
-	  new_arr
+	  nu_ar
 	end
 	
+array = ["jhon","eli", "wakat"]
 	def first_wa(array)
-	  was_ar= []
-	  array.each do |el
-	  was_ar << el unless !el.include?("wa")
+	 # spl = array.split(' ')
+	  was_ar = []
+	  array.each do |el| was_ar << el if el.start_with?('wa')
+	  
 	  end
-	  was_arr
+	  was_ar
 	end
+  puts first_wa(array)
+	
