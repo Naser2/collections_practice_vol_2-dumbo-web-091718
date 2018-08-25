@@ -1,4 +1,5 @@
 # # your code goes here
+#R
 def begins_with_r(array)
   #"is" just a var to hold the conditional statement 
 	  is = true
@@ -8,6 +9,7 @@ def begins_with_r(array)
 	  is
 	end
 
+#A
 def contain_a(array)
  #nu_ar dot push 'unless' it does-not contain 'a' or push 'if' it contains 'a'
 	  nu_ar= []
@@ -17,13 +19,27 @@ def contain_a(array)
 	  nu_ar
 	end
 	
-array = ["jhon","eli", "wakat"]
-	def first_wa(array)
-	 # spl = array.split(' ')
-	  was_ar = []
-	  array.each do |el| was_ar << el if el.first.start_with?('wa')
-	  end
-	  was_ar
+#WA
+# array = ["jhon","eli", "wakat"]
+# 	def first_wa(array)
+# 	 # spl = array.split(' ')
+# 	  was_ar = []         #try with include, match etc..
+# 	  array.each do |el| was_ar << el if el.first.start_with?('wa')
+# 	  end
+# 	  was_ar
+# 	end
+#   puts first_wa(array)
+
+#COOL
+  def find_cool(array)
+	  cool_array = []
+	  array.each do |el|
+	     if el[:temperature] == "cool"
+	       cool_array.push(el)
+	    end
 	end
-  puts first_wa(array)
+	cool_array
+end
+	
+  
 	
