@@ -18,15 +18,15 @@ def contain_a(array)
 	end
 	
 array = ["jhon","eli", "wakat"]
-	def first_wa(array)
-	 # spl = array.split(' ')
-	  was_ar = []
-	  array.each do |el| was_ar << el if el.first.start_with?('wa')
+# 	def first_wa(array)
+# 	 # spl = array.split(' ')
+# 	  was_ar = []
+# 	  array.each do |el| was_ar << el if el.first.start_with?('wa')
 	  
-	  end
-	  was_ar
-	end
-  puts first_wa(array)
+# 	  end
+# 	  was_ar
+# 	end
+#   puts first_wa(array)
   
   
   def find_cool(array)
