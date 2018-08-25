@@ -19,7 +19,7 @@ def contain_a(array)
 	  nu_ar
 	end
 	
-WA
+#WA 
 array = ["jhon","eli", "wakat"]
 	def first_wa(array)
 	 # spl = array.split(' ')
