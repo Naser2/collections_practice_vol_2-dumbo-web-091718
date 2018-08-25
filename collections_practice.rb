@@ -27,4 +27,15 @@ array = ["jhon","eli", "wakat"]
 	  was_ar
 	end
   puts first_wa(array)
+  
+  
+  def find_cool(array)
+	  cool_array = []
+	  array.each do |element|
+	     if element[:temperature] == "cool"
+	       cool_array << element 
+	  end
+	end
+	cool_array
+end
 	
